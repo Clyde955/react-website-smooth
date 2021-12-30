@@ -1,0 +1,51 @@
+
+export const homeObjOne = {
+  id: 'About',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Project Experience',
+  headline: 'I have done a vast number of Projects',
+  description: 'I am a final year student at the University of Cape Town studying Electrical and Computer Engineering. I am left with a few courses so I can work part time',
+  buttonLabel: 'Cheeck Out My Projects here',
+  imgStart: false,
+  img: require('../../images/svg-5.svg'),
+  alt: 'Car',
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjThree = {
+    id: 'Sign Up',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Qualifications',
+    headline: 'Unlimited Transactions with zero fees',
+    description: 'I am a final year student at the University of Cape Town studying Electrical and Computer Engineering. I am left with a few courses so I can work part time',
+    buttonLabel: 'Check Out My Qualifications Here!',
+    imgStart: false,
+    img: require('../../images/svg-3.svg'),
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false,
+  };
+
+  export const homeObjTwo = {
+    id: 'Discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Work Experience',
+    headline: 'Explore my employment history',
+    description: 'I am a final year student at the University of Cape Town studying Electrical and Computer Engineering. I am left with a few courses so I can work part time',
+    buttonLabel: 'Let us Work together',
+    imgStart: false,
+    img: require('../../images/svg-4.svg'),
+    alt: 'Car',
+    dark: false,
+    primary: true,
+    darkText: true,
+  };
