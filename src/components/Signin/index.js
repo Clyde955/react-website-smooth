@@ -22,11 +22,11 @@ const SignIn = () => {
                         <Form action='#'>
                             <FormH1>Sign In To your Account</FormH1>
                             <FormLabel htmlFor='for'>Email</FormLabel>
-                             <FormInput type='email' required />
-                             <FormLabel htmlFor='for'>Password</FormLabel>
-                             <FormInput type='password' required />
-                             <FormButton type='submit'>Continue</FormButton>
-                             <Text>Forgot password</Text>
+                              <FormInput type='email' required />
+                              <FormLabel htmlFor='for'>Password</FormLabel>
+                              <FormInput type='password' required />
+                              <FormButton type='submit'>Continue</FormButton>
+                              <Text>Forgot password</Text>
 
                         </Form>
                     </FormContent>
