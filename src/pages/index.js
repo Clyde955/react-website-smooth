@@ -7,7 +7,7 @@ import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSections
 import Services from '../components/Services';
 import Footer from '../components/Footer';
 
-const home = () => {
+const Home = () => {
     const [isOpen, setIsOpen]= useState(false)
 
     const toggle = () => {
@@ -29,4 +29,4 @@ const home = () => {
     )
 }
 
-export default home;
+export default Home;
