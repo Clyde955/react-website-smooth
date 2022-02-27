@@ -24,13 +24,13 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Languages</ServicesH2>
-                    <ServicesP>CSS, HTML, JS</ServicesP>
+                    <ServicesH2>Backend </ServicesH2>
+                    <ServicesP>Java, Python, C, Assembly etc</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>You can access the platform</ServicesH2>
-                    <ServicesP>Premium Shit</ServicesP>
+                    <ServicesH2>Version control </ServicesH2>
+                    <ServicesP>Git, trello </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
             
